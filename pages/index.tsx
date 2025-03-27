@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
-export default function QuotaClubLanding() {
+export default function Home() {
   return (
     <>
       <Head>
