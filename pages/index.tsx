@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "../components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
 
 export default function Home() {
   return (
@@ -102,3 +102,4 @@ export default function Home() {
     </>
   );
 }
+Fix component imports for local dev
